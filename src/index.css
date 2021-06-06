@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Noto+Sans+JP&display=swap');
+*{
+  margin: 0;
+  padding:  0px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h2{font-size: 1.9rem !important;}
+
+.navigation .navbar a{
+  font-size: 1.3rem;
+  color: black !important;
+  font-weight: 500;
+}
+.navigation .navbar a:hover{
+  color: #3498db !important;
+ 
+}
+
+.navigation .menu-link{
+  font-size:bold;
+  border-bottom: 1px solid rgb(27, 14, 14);
+}
+
+/* home-section */
+
+.home-section img{
+  text-align: right;
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.home-section a{
+  text-decoration: none;
+  border: 2px solid #3498db;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight:600;
+  letter-spacing: 1px;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.home-section a:hover{
+  color: #ffffff;
+  background-color: #3498db;
+  transition: 0.5s;
+}
+
+.home-section .brand-name{
+  color: #3498db;
+}
+
+.click-btn{
+  text-decoration: none;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  background: #3498db;
+  font-size: 16px;
+  font-weight:600;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  color: #fff;
+  text-align: center;
+}
+.click-btn:hover{
+  color: #000;
+  background: none;
+  transition: 0.5s;
+}
+
